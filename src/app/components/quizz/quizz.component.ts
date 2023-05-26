@@ -4,7 +4,7 @@ import quizz_questions from "../../../assets/data/quizz_questions.json";
 @Component({
   selector: 'app-quizz',
   templateUrl: './quizz.component.html',
-  styleUrls: ['./quizz.component.css'],
+  styleUrls: ['./quizz.component.css' ],
 })
 export class QuizzComponent implements OnInit {
 
@@ -21,6 +21,7 @@ export class QuizzComponent implements OnInit {
 
   finished: boolean = false 
 
+  
 
   constructor() { }
 
@@ -72,6 +73,7 @@ export class QuizzComponent implements OnInit {
       }
     })
     return result
-  } 
+  }
+
 
 }

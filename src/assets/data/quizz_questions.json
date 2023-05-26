@@ -1,55 +1,71 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Você se indentifica mais com front-end ou back-end:",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Qual aspecto do desenvolvimento de software você considera mais interessante ?",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Trabalhar com a aparência visual e interatividade do aplicativo/site.", "alias":"A"},
+        {"id": 2, "name":"Lidar com a lógica e o funcionamento dos bastidores.", "alias":"B"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "O que você acha mais gratificante em um projeto ?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Ver a interface do usuário ganhar vida e interagir com ela.", "alias":"A"},
+        {"id": 2, "name":"Garantir que os dados sejam armazenados corretamente e acessíveis quando necessário.", "alias":"B"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "Como você se sente ao encontrar um bug em um aplicativo ?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"Analiso a lógica por trás do bug e busco soluções eficientes.", "alias":"B"},
+        {"id": 2, "name":"Preocupo-me com a experiência do usuário e trabalho para corrigi-lo rapidamente.", "alias":"A"}
+      
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Quail linguagem você prefere ?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"HTML", "alias":"A"},
+        {"id": 2, "name":"Python", "alias":"B"},
+        {"id": 2, "name":"Java", "alias":"B"},
+        {"id": 2, "name":"JavaScript", "alias":"A"},
+        {"id": 2, "name":"C#", "alias":"B"}
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Qual é a sua reação ao ouvir falar de APIs e bancos de dados ?",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"Fico animado para explorar como integrar e exibir os dados em uma interface amigável", "alias":"A"},
+        {"id": 2, "name":"Sinto-me empolgado para desenvolver a lógica que permite o acesso aos dados e sua manipulação.", "alias":"B"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "O que te atrai mais em uma linguagem de programação ?",
+      "options":[
+        {"id": 2, "name":"Sua eficiência e habilidade para processar grandes quantidades de dados.", "alias":"B"},
+        {"id": 1, "name":"Sua capacidade de criar interfaces atraentes e interativas.", "alias":"A"}
+        
+      ]
+    },
+    {
+      "id":7,
+      "question": "Quando você pensa em desenvolvimento web, o que vem à mente primeiro ?",
+      "options":[
+        {"id": 2, "name":"Banco de dados, servidores e lógica de negácios.", "alias":"B"},
+        {"id": 1, "name":"Layout, cores e animações.", "alias":"A"}
+        
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": "Você muito provavelmente se identifica mais com front-end!",
+    "B": "Você muito provavelmente se identifica mais com back-end!"
   }
 }
